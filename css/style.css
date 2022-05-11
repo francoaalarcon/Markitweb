@@ -329,7 +329,7 @@ h6,
 }
 @media (max-width: 425px){
     .whatsappfloatmessage{
-        right: 60px !important;
+        display: none !important;
     }
     .whatsappfloat{
         right: 18px !important;
