@@ -327,6 +327,18 @@ h6,
 .service-item:hover {
     background: var(--primary);
 }
+@media (max-width: 425px){
+    .whatsappfloatmessage{
+        right: 60px !important;
+    }
+    .whatsappfloat{
+        right: 18px !important;
+    }
+    
+    .back-to-top{
+        right: 25px;
+    }
+}
 
 .whatsappfloatmessage{
     width: max-content;
