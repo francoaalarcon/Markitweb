@@ -315,9 +315,80 @@ h6,
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
 }
+.service-item2{
+    position: relative;
+    height: 350px;
+    padding: 30px 25px;
+    background: #ffffff;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
 
 .service-item:hover {
     background: var(--primary);
+}
+
+.whatsappfloatmessage{
+    width: max-content;
+    padding: 5px 33px;
+    border-radius: 10px;
+    background-color: #ec7308;
+	bottom:111px;
+    display: none;
+	right:80px;
+    animation: fadeInRight 1s;
+	position:fixed;
+    border: 2px solid white;
+    color: white;
+    z-index:90;
+    font-weight: 500;
+}
+
+.whatsappfloat{
+	position:fixed;
+    animation: fadeInRight 1s;
+	width:60px;
+	height:60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	bottom:100px;
+	right:38px;
+    line-height: 65px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.whatsappfloat:hover{
+    color: #fff;
+}
+
+.serviciosblock{
+    width: 100vw;
+    animation: fadeIn 0.5s;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.sb_item_c{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+}
+.sb_item{
+    width: max-content;
+}
+
+.cursor_pointer{
+    cursor: pointer;
 }
 
 .videointerface{
@@ -329,6 +400,7 @@ h6,
     z-index: 1000;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
 .vi_videoc{
     width: 100vw;
     display: flex;
@@ -505,6 +577,17 @@ h6,
     background: url(../img/icon-shape-primary.png) center center no-repeat;
     transition: .5s;
 }
+.service-item2 .service-icon {
+    margin: 0 auto 20px auto;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    background: url(../img/icon-shape-primary.png) center center no-repeat;
+    transition: .5s;
+}
 .dropstart .service-icon {
     margin: 0 auto 0px auto;
     width: 90px;
@@ -543,6 +626,13 @@ h6,
     transition: .5s;
     z-index: 1;
 }
+.service-item2 a.btn {
+    position: relative;
+    display: flex;
+    color: var(--primary);
+    transition: .5s;
+    z-index: 1;
+}
 
 .service-item:hover a.btn {
     color: var(--primary);
@@ -559,6 +649,19 @@ h6,
     background: #DDDDDD;
     transition: .5s;
     z-index: -1;
+}
+.service-item2 a.btn::before {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    border-radius: 35px;
+    transition: .5s;
+    z-index: -1;
+    width: 100%;
+    background: var(--light);
 }
 
 .service-item:hover a.btn::before {
@@ -680,6 +783,17 @@ h6,
 
 .portfolio-item:hover .portfolio-overlay {
     opacity: 1;
+}
+.testimonial-item{
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+@media (max-width: 1024px){
+    .testimonial-item{
+        height: 400px;
+    }
 }
 
 .portfolio-item .btn {

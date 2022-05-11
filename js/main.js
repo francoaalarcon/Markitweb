@@ -20,6 +20,7 @@
     $(window).scroll(function () {
         if ($(this).scrollTop() > 45) {
             $('.navbar').addClass('sticky-top shadow-sm');
+            $('.whatsappfloatmessage').css("display","block");
         } else {
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
@@ -114,3 +115,54 @@ $("#buttonclosevideo").click(function(){
 $("#buttonopenvideo").click(function(){
     $(".videointerface").css("display","block");
 });
+
+$("#sbitopen1").click(function(){
+    $("#sbit1").css("display","block");
+});
+$("#sbitclose1").click(function(){
+    $("#sbit1").css("display","none");
+});
+$("#sbitopen2").click(function(){
+    $("#sbit2").css("display","block");
+});
+$("#sbitclose2").click(function(){
+    $("#sbit2").css("display","none");
+});
+$("#sbitopen3").click(function(){
+    $("#sbit3").css("display","block");
+});
+$("#sbitclose3").click(function(){
+    $("#sbit3").css("display","none");
+});
+$("#sbitopen4").click(function(){
+    $("#sbit4").css("display","block");
+});
+$("#sbitclose4").click(function(){
+    $("#sbit4").css("display","none");
+});
+$("#sbitopen5").click(function(){
+    $("#sbit5").css("display","block");
+});
+$("#sbitclose5").click(function(){
+    $("#sbit5").css("display","none");
+});
+$("#sbitopen6").click(function(){
+    $("#sbit6").css("display","block");
+});
+$("#sbitclose6").click(function(){
+    $("#sbit6").css("display","none");
+});
+
+document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide', {
+        autowidth: true,
+        gap: '0',
+        type: 'loop',
+        perPage: 1,
+        arrows: false,
+        pagination: false,
+        autoplay: true,
+        interval: 2000
+    } );
+    splide.mount();
+} );
