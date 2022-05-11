@@ -20,7 +20,7 @@
     $(window).scroll(function () {
         if ($(this).scrollTop() > 45) {
             $('.navbar').addClass('sticky-top shadow-sm');
-            $('.whatsappfloatmessage').css("display","block");
+            $('.whatsappfloatmessage').addClass('whatsappmessageactive');
         } else {
             $('.navbar').removeClass('sticky-top shadow-sm');
         }

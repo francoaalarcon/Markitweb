@@ -327,8 +327,13 @@ h6,
 .service-item:hover {
     background: var(--primary);
 }
+
+.whatsappmessageactive{
+    display: block;
+}
+
 @media (max-width: 425px){
-    .whatsappfloatmessage{
+    .whatsappmessageactive{
         display: none !important;
     }
     .whatsappfloat{
