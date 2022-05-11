@@ -107,3 +107,10 @@
     
 })(jQuery);
 
+$("#buttonclosevideo").click(function(){
+    $(".videointerface").css("display","none");
+});
+
+$("#buttonopenvideo").click(function(){
+    $(".videointerface").css("display","block");
+});

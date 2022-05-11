@@ -143,15 +143,21 @@ h6,
     margin-bottom: 0;
 }
 .titlebien2{
-    width: 40%;
-    right: 0;
+    width: 37%;
+    height: 4rem;
+    padding-left: 1rem;
+    position: relative;
+}
+.titlebien2c{
+    width: 100%;
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-.titlebien2c{
+
+.pbc_c{
     width: 100%;
     position: absolute;
     top: 50%;
@@ -314,6 +320,180 @@ h6,
     background: var(--primary);
 }
 
+.videointerface{
+    width: 100vw;
+    animation: fadeIn 1s;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.vi_videoc{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+}
+@media (max-width: 1024px) {
+    .imgcohete{
+        height: auto !important;
+        margin-top: -40px !important;
+    }
+    .laptopc{
+        width: 450px !important;
+        height: 333px !important;
+    }
+    .laptopc_img{
+        width: 450px !important;
+        height: 333px !important;
+    }
+    
+    .laptopsize{
+        width: 450px !important;
+        height: 333px !important;
+    }
+    
+    .insidelaptopc{
+        width: 308.25px !important;
+        height: 195.75px !important;
+        left: 72px !important;
+        top: 38.7px !important;
+    }
+    .insidelaptopcc{
+        width: 308.25px !important;
+        height: 195.75px !important;
+    }
+}
+@media (max-width: 425px) {
+    .titlebien1{
+        width: max-content;
+        height: 4rem;
+        line-height: 4rem;
+    }
+    .titlebien1 h2{
+        font-size: 1.9rem;
+        line-height: 4rem;
+        margin-bottom: 0;
+    }
+    .laptopc{
+        width: 310px !important;
+        height: 229.4px !important;
+    }
+    .laptopc_img{
+        width: 310px !important;
+        height: 229.4px !important;
+    }
+    
+    .laptopsize{
+        width: 310px !important;
+        height: 229.4px !important;
+    }
+    
+    .insidelaptopc{
+        width: 212.35px !important;
+        height: 134.85px !important;
+        left: 49.6px !important;
+        top: 26.66px !important;
+    }
+    .insidelaptopcc{
+        width: 212.35px !important;
+        height: 134.85px !important;
+    }
+}
+
+
+.laptopc{
+    width: 500px;
+    height: 370px;
+    position: relative;
+}
+.laptopc_img{
+    width: 500px;
+    height: 370px;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/laptop.png);
+}
+
+.laptopsize{
+    width: 342.5px;
+    height: 217.5px;
+    background-size: cover;
+    background-position: center;
+    background-color: rebeccapurple;
+}
+
+.insidelaptopc{
+    z-index: 9;
+    width: 342.5px;
+    overflow: hidden;
+    background-color: white;
+    left: 80px;
+    position: absolute;
+    top: 43px;
+    height: 217.5px;
+}
+.insidelaptopcc{
+    width: 342.5px;
+    height: 217.5px;
+}
+
+.rounded2{
+    border-radius: 80px;
+}
+.rounded3{
+    border-radius: 35px;
+}
+.imgcohete{
+    height: 330px;
+    margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+    .vi_videocc{
+        width: 80vw !important;
+    }
+    .logob1{
+        display: none !important;
+    }
+    .logob2{
+        display: block !important;
+    }
+}
+
+#buttonopenvideo{
+    cursor: pointer;
+}
+
+.vi_videocc{
+    width: 40vw;
+}
+.vi_videoccx{
+    width: 2em;
+    margin-left: 0.5em;
+    height: inherit;
+    position: relative;
+}
+.vi_videoccxc{
+    width: 2em;
+    cursor: pointer;
+    color: white;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+}
+
 .service-item .service-icon {
     margin: 0 auto 20px auto;
     width: 90px;
@@ -324,6 +504,21 @@ h6,
     color: var(--light);
     background: url(../img/icon-shape-primary.png) center center no-repeat;
     transition: .5s;
+}
+.dropstart .service-icon {
+    margin: 0 auto 0px auto;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    background: url(../img/icon-shape-primary.png) center center no-repeat;
+    transition: .5s;
+}
+.dropstart .service-icon:hover{
+    color: var(--primary);
+    background: url(../img/icon-shape-white.png);
 }
 
 .service-item:hover .service-icon {
