@@ -813,12 +813,21 @@ h6,
     }
 }
 
-.portfolio-item .btn {
+.btncontfl{
     position: absolute;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.portfolio-item .btn {
     width: 90px;
     height: 90px;
-    top: 0px;
-    right: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
