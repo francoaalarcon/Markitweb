@@ -29,11 +29,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css?v=1.5" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-xxl bg-white p-0">
+    <div class="container-fluid bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -44,47 +44,51 @@
 
 
         <!-- Navbar & Hero Start -->
-        <div class="container-xxl position-relative p-0">
+        <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-search me-2"></i>SEO<span class="fs-5">Master</span></h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                <a href="../#" class="navbar-brand p-0">
+                    <!-- <h1 class="m-0"><i class="fa fa-search me-2"></i>SEO<span class="fs-5">Master</span></h1>-->
+                    <div class="logob1">
+                        <img src="img/logo2.png" alt="Logo"> 
+                    </div>
+                    <div class="logob2">
+                        <img src="img/logo.png" alt="Logo"> 
+                    </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="project.html" class="nav-item nav-link">Project</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                        <a href="../#" class="nav-item nav-link">Inicio</a>
+                        <a href="../#acercade" class="nav-item nav-link">Acerca de</a>
+                        <a href="../#servicios" class="nav-item nav-link">Servicios</a>
+                        <a href="../#clientes" class="nav-item nav-link">Clientes</a>
+                        <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
-                                <a href="team.html" class="dropdown-item active">Our Team</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div> -->
+                        <a href="../#contacto" class="nav-item nav-link">Contacto</a>
                     </div>
-                    <butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                    <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3">Pro Version</a>
+                    <!-- <butaton type="button" class="btn text-twoary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                    <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-twoary text-light rounded-pill py-2 px-4 ms-3">Pro Version</a> -->
                 </div>
             </nav>
 
-            <div class="container-xxl py-5 bg-primary hero-header mb-5">
+            <div class="container-fluid py-5 bg-primary hero-header mb-5">
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-12 text-center">
-                            <h1 class="text-white animated zoomIn">Our Team</h1>
+                            <h1 class="text-white animated zoomIn">Nuestros Clientes</h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                                    <li class="breadcrumb-item text-white active" aria-current="page">Team</li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="../">Home</a></li>
+                                    <li class="breadcrumb-item text-white active" aria-current="page">Clientes</li>
                                 </ol>
                             </nav>
                         </div>
@@ -114,69 +118,798 @@
         <!-- Full Screen Search End -->
 
 
-        <!-- Team Start -->
-        <div class="container-xxl py-5">
+        <!-- Portfolio Start -->
+        <div class="container-fluid py-5" id="clientes">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="position-relative d-inline text-primary ps-4">Our Team</h6>
-                    <h2 class="mt-2">Meet Our Team Members</h2>
+                    <!-- <h6 class="position-relative d-inline text-primary ps-4">Nuestros Clientes</h6> -->
+                    <h2 class="mt-2">Nuestros servicios brindados a empresas</h2>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="btn px-3 pe-4 active" data-filter="*">Todos</li>
+                            <li class="btn px-3 pe-4" data-filter=".one">Empresas</li>
+                            <li class="btn px-3 pe-4" data-filter=".two">Emprendedores</li>
+                            <li class="btn px-3 pe-4" data-filter=".three">Influencers</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item one wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
                                 </div>
-                                <img class="img-fluid rounded w-100" src="img/team-1.jpg" alt="">
-                            </div>
-                            <div class="px-4 py-3">
-                                <h5 class="fw-bold m-0">Jhon Doe</h5>
-                                <small>CEO</small>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">ZHENGUE</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item one wow zoomIn" data-wow-delay="0.3s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
                                 </div>
-                                <img class="img-fluid rounded w-100" src="img/team-2.jpg" alt="">
-                            </div>
-                            <div class="px-4 py-3">
-                                <h5 class="fw-bold m-0">Emma William</h5>
-                                <small>Manager</small>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">PICA PICA</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item one wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
                                 </div>
-                                <img class="img-fluid rounded w-100" src="img/team-3.jpg" alt="">
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">LA VACHE FOLLE</a>
+                                </div>
                             </div>
-                            <div class="px-4 py-3">
-                                <h5 class="fw-bold m-0">Noah Michael</h5>
-                                <small>Designer</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item one wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">BACKSTAGE TATTOO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item one wow zoomIn" data-wow-delay="0.3s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">LIMPIEZAS KRISTAL</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item one wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">KANDAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item one wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-7.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">VITTORIA</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-8.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">FIORELA FITCOACH</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-9.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Siete Secretos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/58.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Wings Mobile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-11.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">New Life</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-12.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">La Planicie de Carhuaz</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-13.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Importador Lider</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/14.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Brizza Design</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/15.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Megalabs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/16.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Más Callao</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/17.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Farmacias Lider</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/18.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Ciruelax</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/19.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Hidrisage</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/20.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Umbrella</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/21.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Cautivo Revisiones Tecnicas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/22.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Revisiones Tecnicas San Miguel</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/23.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Back Stage Salon & Spa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/24.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Luxia Intelligence & Tech</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/25.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">GF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/26.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Pasión Frutal</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/27.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">BiFlex</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/28.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Multiflora</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/29.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">JJS Diseño & Construcción</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/30.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Viki Store</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/31.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">El Charcutero</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/32.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">CLB Contratistas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/33.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Centro de Belleza estética & salud chino</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/34.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">K&E Outfit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/35.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Centro de Evaluación Ruta Segura</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/36.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Vision</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/37.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Oh! Twins Boutique</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/38.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Body Up Spa Center</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/39.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Alpha Trendy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/40.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Benlg</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/41.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">MultiClinicas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/42.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Arquimad Mobiliario</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/43.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">L'aventurier</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/44.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Jammin Alion</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/45.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Soal</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/46.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Para Ud Minimarket</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/47.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Mery de la Oliva Díaz</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/48.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Hermetix</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/49.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Xion</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/51.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Serval</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/52.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Mundo Negocio</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/54.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Luyu</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/55.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">M&S</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/56.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Consentidos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item two wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/57.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="btncontfl">
+                                    <a class="btn btn-light" href="#" target="_blank"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                </div>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i></small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Maje Store</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Team End -->
+        <!-- Portfolio End -->
         
 
         <!-- Footer Start -->
@@ -276,7 +1009,7 @@
     <script src="lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=1.5"></script>
 </body>
 
 </html>
