@@ -911,3 +911,56 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+.galleryimagesc{
+    width: 99vw;
+    height: 39vw;
+    background-color: #ec7308;
+    position: relative;
+}
+.gic_bg{
+    background-size: cover;
+    background-position: center;
+}
+.gic_img1{
+    width: 18vw;
+    height: 18vw;
+    left: 1vw;
+    top: 1vw;
+    position: absolute;
+}
+.gic_img2{
+    width: 38vw;
+    height: 37vw;
+    left: 20vw;
+    top: 1vw;
+    position: absolute;
+}
+.gic_img3{
+    width: 39vw;
+    height: 18vw;
+    left: 59vw;
+    top: 1vw;
+    position: absolute;
+}
+.gic_img4{
+    width: 18vw;
+    height: 18vw;
+    left: 1vw;
+    top: 20vw;
+    position: absolute;
+}
+.gic_img5{
+    width: 19vw;
+    height: 18vw;
+    left: 59vw;
+    top: 20vw;
+    position: absolute;
+}
+.gic_img6{
+    width: 19vw;
+    height: 18vw;
+    left: 79vw;
+    top: 20vw;
+    position: absolute;
+}
